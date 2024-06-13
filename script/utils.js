@@ -12,5 +12,5 @@ export function checkToken() {
     localStorage.removeItem("refresh_token");
     sessionStorage.removeItem("access_token");
   
-    redirect("/index.html");
+    redirect("/admin.html");
   }
